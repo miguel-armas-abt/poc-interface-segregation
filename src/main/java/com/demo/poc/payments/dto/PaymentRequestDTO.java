@@ -11,5 +11,4 @@ public class PaymentRequestDTO {
 
   private String paymentMethod;
   private double amount;
-  private String accountOrCardNumber;
 }

@@ -1,11 +1,6 @@
 package com.demo.poc.payments.service.correct;
 
-import com.demo.poc.payments.dto.PaymentRequestDTO;
-import com.demo.poc.payments.dto.PaymentResponseDTO;
-
-public interface BankTransferPaymentService {
-
-  PaymentResponseDTO processPayment(PaymentRequestDTO requestDTO);
+public interface BankTransferPaymentService extends PaymentProcessorService {
 
   void validateBankAccount(String bankAccountNumber);
 

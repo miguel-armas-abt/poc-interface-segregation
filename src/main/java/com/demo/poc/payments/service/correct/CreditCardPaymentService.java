@@ -1,11 +1,6 @@
 package com.demo.poc.payments.service.correct;
 
-import com.demo.poc.payments.dto.PaymentRequestDTO;
-import com.demo.poc.payments.dto.PaymentResponseDTO;
-
-public interface CreditCardPaymentService {
-
-  PaymentResponseDTO processPayment(PaymentRequestDTO requestDTO);
+public interface CreditCardPaymentService extends PaymentProcessorService{
 
   void validateCardNumber(String cardNumber);
 
