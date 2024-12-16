@@ -6,3 +6,6 @@ Este proyecto implementa una solución correcta e incorrecta según el principio
 > - Tarjeta de crédito
 > - Paypal
 > - Transferencia bancaria
+
+## ⚙️Tecnologías
+- Lombok
